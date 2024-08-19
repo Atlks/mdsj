@@ -1,0 +1,124 @@
+[
+    {
+      "id": "mmr",
+      "name": "缅甸"
+    },
+    {
+      "id": "mwdcity",
+      "name": "妙瓦底",
+      "parent": "缅甸"
+    },
+    {
+      "id": "kk",
+      "name": "KK园区",
+      "parent": "妙瓦底"
+    },
+    {
+      "id": "df",
+      "name": "东方园区",
+      "parent": "妙瓦底"
+    },
+    {
+      "id": "jz",
+      "name": "金州园区",
+      "parent": "妙瓦底"
+    },
+    {
+      "id": "sjxc",
+      "name": "世纪新城园区",
+      "parent": "妙瓦底"
+    },
+    {
+      "id": "ylw",
+      "name": "御龙湾",
+      "parent": "妙瓦底"
+    },
+    {
+      "id": "ytc",
+      "name": "亚太城",
+      "parent": "妙瓦底"
+    },
+    {
+      "id": "RGN",
+      "name": "仰光",
+      "parent": "缅甸"
+    },
+    {
+      "id": "Test1",
+      "name": "Test1",
+      "parent": "曼谷"
+    },
+    {
+      "id": "Test2",
+      "name": "Test2",
+      "parent": "曼谷"
+    },
+    {
+      "id": "tha",
+      "name": "泰国"
+    },
+    {
+      "id": "bkk",
+      "name": "曼谷",
+      "parent": "泰国"
+    },
+    {
+      "id": "laos",
+      "name": "老挝"
+    },
+    {
+      "id": "vte",
+      "name": "万象",
+      "parent": "老挝"
+    },
+    {
+      "id": "vnm",
+      "name": "越南"
+    },
+    {
+      "id": "sgn",
+      "name": "胡志明",
+      "parent": "越南"
+    },
+    {
+      "id": "idn",
+      "name": "印度尼西亚"
+    },
+    {
+      "id": "cgk",
+      "name": "雅加达",
+      "parent": "印度尼西亚"
+    },
+    {
+      "id": "mys",
+      "name": "马来西亚"
+    },
+    {
+      "id": "are",
+      "name": "阿联酋"
+    },
+    {
+      "id": "dxb",
+      "name": "迪拜",
+      "parent": "阿联酋"
+    },
+    {
+      "id": "cam",
+      "name": "柬埔寨"
+    },
+    {
+      "id": "pnh",
+      "name": "金边",
+      "parent": "柬埔寨"
+    },
+    {
+      "id": "kos",
+      "name": "西港",
+      "parent": "柬埔寨"
+    },
+    {
+      "id": "geo",
+      "name": "格鲁吉亚"
+    }
+  ]
+  

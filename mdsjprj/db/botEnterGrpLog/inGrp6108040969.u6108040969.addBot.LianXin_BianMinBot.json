@@ -1,0 +1,39 @@
+{
+  "update_id": 839639081,
+  "my_chat_member": {
+    "chat": {
+      "id": 6108040969,
+      "type": "private",
+      "username": "Amanda_Thrive",
+      "first_name": "147",
+      "last_name": "Thrive"
+    },
+    "from": {
+      "id": 6108040969,
+      "is_bot": false,
+      "first_name": "147",
+      "last_name": "Thrive",
+      "username": "Amanda_Thrive",
+      "language_code": "zh-hans"
+    },
+    "date": 1722183639,
+    "old_chat_member": {
+      "status": "kicked",
+      "user": {
+        "id": 6999501721,
+        "is_bot": true,
+        "first_name": "联信便民助手",
+        "username": "LianXin_BianMinBot"
+      }
+    },
+    "new_chat_member": {
+      "status": "member",
+      "user": {
+        "id": 6999501721,
+        "is_bot": true,
+        "first_name": "联信便民助手",
+        "username": "LianXin_BianMinBot"
+      }
+    }
+  }
+}

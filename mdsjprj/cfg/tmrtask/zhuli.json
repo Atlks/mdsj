@@ -1,0 +1,5 @@
+{
+    "cron": "1 7,19 * * *",
+    "time": "10 16",
+    "fun": "tmrEvtLLLzhuligrpSendmsg"
+}

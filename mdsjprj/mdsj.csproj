@@ -1,0 +1,120 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+
+  <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+  <EnableComHosting>true</EnableComHosting>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PublishAot>true</PublishAot>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AcoustID" Version="0.0.2" />
+    <PackageReference Include="AcoustID.NET" Version="1.3.3" />
+    <PackageReference Include="Binance.Net" Version="9.10.0" />
+    <PackageReference Include="BinanceAPI.NET" Version="35.1.11" />
+    <PackageReference Include="ChineseCharacterConvert" Version="1.0.2" />
+    <PackageReference Include="ClosedXML" Version="0.102.2" />
+    <PackageReference Include="Concentus" Version="2.2.2" />
+    <PackageReference Include="Concentus.Oggfile" Version="1.0.6" />
+    <PackageReference Include="CryptoExchange.Net" Version="7.6.0" />
+    <PackageReference Include="EchoPrintSharp.Netstandard" Version="1.1.1" />
+    <PackageReference Include="FFmpeg.AutoGen" Version="7.0.0" />
+    <PackageReference Include="FFmpeg.Nightly" Version="20200831.1.0" />
+    <PackageReference Include="FFMpegCore" Version="5.1.0" />
+    <PackageReference Include="Google.Apis" Version="1.68.0" />
+    <PackageReference Include="Google.Apis.Auth" Version="1.68.0" />
+    <PackageReference Include="Google.Apis.Gmail.v1" Version="1.68.0.3427" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.61" />
+    <PackageReference Include="HtmlRenderer.Core" Version="1.5.0.6" />
+    <PackageReference Include="HtmlRenderer.Core.NetStandard2" Version="1.5.1.3" />
+    <PackageReference Include="HtmlRenderer.WinForms" Version="1.5.0.6" />
+    <PackageReference Include="jieba.NET" Version="0.42.2" />
+    <PackageReference Include="Kayisoft.Abp.XabeFFmpeg" Version="3.5.5" />
+ 
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="8.0.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="4.10.0" />
+    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="8.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.5" />
+    <PackageReference Include="MiniGuid" Version="1.1.2" />
+    <PackageReference Include="MusicApiCollection" Version="0.1.0" />
+    <PackageReference Include="NAave" Version="1.0.2" />
+    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="NAudio.Core" Version="2.2.1" />
+    <PackageReference Include="NAudio.Lame" Version="2.1.0" />
+    <PackageReference Include="NAudio.Midi" Version="2.2.1" />
+    <PackageReference Include="NAudio.Vorbis" Version="1.5.0" />
+    <PackageReference Include="NAudio.WaveFormRenderer" Version="2.0.0" />
+    <PackageReference Include="NAudio.Wma" Version="1.0.1" />
+    <PackageReference Include="NCrontab.Signed" Version="3.3.3" />
+    <PackageReference Include="Nethereum.ABI" Version="4.21.0" />
+    <PackageReference Include="Nethereum.Accounts" Version="4.21.0" />
+    <PackageReference Include="Nethereum.Contracts" Version="4.21.0" />
+    <PackageReference Include="Nethereum.Hex" Version="4.21.0" />
+    <PackageReference Include="Nethereum.JsonRpc.RpcClient" Version="4.21.0" />
+    <PackageReference Include="Nethereum.Model" Version="4.21.0" />
+    <PackageReference Include="Nethereum.RLP" Version="4.21.0" />
+    <PackageReference Include="Nethereum.Signer" Version="4.21.0" />
+    <PackageReference Include="Nethereum.StandardTokenEIP20" Version="4.21.0" />
+    <PackageReference Include="Nethereum.Util" Version="4.21.0" />
+    <PackageReference Include="Nethereum.Web3" Version="4.21.0" />
+    <PackageReference Include="NLua" Version="1.7.3" />
+    <PackageReference Include="NReco" Version="2.0.3" />
+    <PackageReference Include="NReco.ImageGenerator.LT" Version="1.1.3" />
+    <PackageReference Include="NReco.VideoConverter" Version="1.2.1" />
+    <PackageReference Include="Nustache" Version="1.16.0.10" />
+    <PackageReference Include="Porter2Stemmer" Version="1.0.0" />
+    <PackageReference Include="Porter2StemmerStandard" Version="1.1.0" />
+    <PackageReference Include="PorterStemmer" Version="1.0.0" />
+    <PackageReference Include="RG3.PF.PinYinScriptEngineCliWrap" Version="7.2.10" />
+    <PackageReference Include="Scriban" Version="5.10.0" />
+    <PackageReference Include="SQLite" Version="3.13.0" />
+    <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="2.1.8" />
+    <PackageReference Include="SQLitePCLRaw.core" Version="2.1.8" />
+    <PackageReference Include="SqlParserCS" Version="0.3.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.6.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.6.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.6.2" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.7" />
+    <PackageReference Include="System.Drawing.Primitives" Version="4.3.0" />
+    <PackageReference Include="System.Management" Version="8.0.0" />
+    <PackageReference Include="Telegram.Bot" Version="20.0.0-alpha.1" />
+    <PackageReference Include="Uno.UI" Version="5.2.175" />
+    <PackageReference Include="Xabe.FFmpeg" Version="5.2.6" />
+    <PackageReference Include="Xabe.FFmpeg.Downloader" Version="5.2.6" />
+    <PackageReference Include="Xabe.FileLock" Version="2.0.0" />
+    <PackageReference Include="YoutubeExplode" Version="6.3.16" />
+    <PackageReference Include="YoutubeExplode.Converter" Version="6.3.16" />
+  </ItemGroup>
+<ItemGroup>
+  <PackageReference Include="System.Text.Json" Version="8.0.3" />
+</ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="D:\0prj\缅甸商家\缅甸商家\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="D:\0prj\mdsj\mdsjprj\lib\.editorconfig" />
+    <None Include="D:\0prj\缅甸商家\缅甸商家\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="D:\0prj\mdsj\mdsjprj\lib\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Administrator\.nuget\packages\naudio.vorbis\1.5.0\contentFiles\any\netstandard2.0\README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="新文件夹\" />
+  </ItemGroup>
+
+</Project>
