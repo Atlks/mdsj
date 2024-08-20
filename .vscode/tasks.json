@@ -1,0 +1,44 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Swift",
+            "type": "shell",
+            "command": "swift",
+            "args": [
+                "build"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Run Swift",
+            "type": "shell",
+            "command": "swift",
+            "args": [
+                "run"
+            ],
+            "dependsOn": "Build Swift",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "go build",
+            "args": [
+                "-o",
+                "${workspaceFolder}/bin/main.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
