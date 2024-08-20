@@ -6,7 +6,7 @@ FUN EvtUpdateHdlr(
 //-------fun msgHdl4srchPrejude
 fun onmsg   //todo here can del
 FUN MsgHdlr4searchPrejude(
-
+   
 
 //-------------MsgHdlr4search
 //todo this two fun can together...
